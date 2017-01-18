@@ -12,7 +12,7 @@ UCLASS()
 class TIAN_API ATianGameModeBase : public AGameModeBase
 {
 	GENERATED_BODY()
-	
+	virtual void StartPlay() override;
 	
 	
 	
